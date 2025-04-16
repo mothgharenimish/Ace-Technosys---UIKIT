@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4AF9CCBFA8FF22A8E38740C3 /* Pods_Ace_Technosys___UIKITTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF1CA3709F62340ACDAB88B /* Pods_Ace_Technosys___UIKITTests.framework */; };
+		B938468ECAE545F6CEE0C4DA /* Pods_Ace_Technosys___UIKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585C113A982A0850288948C2 /* Pods_Ace_Technosys___UIKIT.framework */; };
+		C802788450995D1339EEEEEC /* Pods_Ace_Technosys___UIKIT_Ace_Technosys___UIKITUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AB11417791315CBCD8E99F /* Pods_Ace_Technosys___UIKIT_Ace_Technosys___UIKITUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2F213ECF2DAE4CCE0047D5C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,15 @@
 		2F213EB82DAE4CCC0047D5C1 /* Ace-Technosys - UIKIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ace-Technosys - UIKIT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F213ECE2DAE4CCE0047D5C1 /* Ace-Technosys - UIKITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ace-Technosys - UIKITTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F213ED82DAE4CCF0047D5C1 /* Ace-Technosys - UIKITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ace-Technosys - UIKITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FBE85E155A0AEEAFDADFB6 /* Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		585C113A982A0850288948C2 /* Pods_Ace_Technosys___UIKIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ace_Technosys___UIKIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62658B20A458CA5AFC954751 /* Pods-Ace-Technosys - UIKITTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKITTests.release.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKITTests/Pods-Ace-Technosys - UIKITTests.release.xcconfig"; sourceTree = "<group>"; };
+		65917444FF2A18ED4859D16C /* Pods-Ace-Technosys - UIKIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKIT.release.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKIT/Pods-Ace-Technosys - UIKIT.release.xcconfig"; sourceTree = "<group>"; };
+		6C2DE7F6F3C3EB26DDC38CEF /* Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.release.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9555D4D5C6773229AFE12206 /* Pods-Ace-Technosys - UIKIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKIT.debug.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKIT/Pods-Ace-Technosys - UIKIT.debug.xcconfig"; sourceTree = "<group>"; };
+		A4AB11417791315CBCD8E99F /* Pods_Ace_Technosys___UIKIT_Ace_Technosys___UIKITUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ace_Technosys___UIKIT_Ace_Technosys___UIKITUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF1CA3709F62340ACDAB88B /* Pods_Ace_Technosys___UIKITTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ace_Technosys___UIKITTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADBF33D2FD986C8FF663ED8 /* Pods-Ace-Technosys - UIKITTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKITTests.debug.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKITTests/Pods-Ace-Technosys - UIKITTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,11 +65,15 @@
 		};
 		2F213ED12DAE4CCE0047D5C1 /* Ace-Technosys - UIKITTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Ace-Technosys - UIKITTests";
 			sourceTree = "<group>";
 		};
 		2F213EDB2DAE4CCF0047D5C1 /* Ace-Technosys - UIKITUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Ace-Technosys - UIKITUITests";
 			sourceTree = "<group>";
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B938468ECAE545F6CEE0C4DA /* Pods_Ace_Technosys___UIKIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF9CCBFA8FF22A8E38740C3 /* Pods_Ace_Technosys___UIKITTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C802788450995D1339EEEEEC /* Pods_Ace_Technosys___UIKIT_Ace_Technosys___UIKITUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +114,8 @@
 				2F213ED12DAE4CCE0047D5C1 /* Ace-Technosys - UIKITTests */,
 				2F213EDB2DAE4CCF0047D5C1 /* Ace-Technosys - UIKITUITests */,
 				2F213EB92DAE4CCC0047D5C1 /* Products */,
+				3E7EA700A7B215E11AA9B0A1 /* Pods */,
+				E7796E6FFDA4694B0851195E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +129,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3E7EA700A7B215E11AA9B0A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9555D4D5C6773229AFE12206 /* Pods-Ace-Technosys - UIKIT.debug.xcconfig */,
+				65917444FF2A18ED4859D16C /* Pods-Ace-Technosys - UIKIT.release.xcconfig */,
+				31FBE85E155A0AEEAFDADFB6 /* Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.debug.xcconfig */,
+				6C2DE7F6F3C3EB26DDC38CEF /* Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.release.xcconfig */,
+				EADBF33D2FD986C8FF663ED8 /* Pods-Ace-Technosys - UIKITTests.debug.xcconfig */,
+				62658B20A458CA5AFC954751 /* Pods-Ace-Technosys - UIKITTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7796E6FFDA4694B0851195E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				585C113A982A0850288948C2 /* Pods_Ace_Technosys___UIKIT.framework */,
+				A4AB11417791315CBCD8E99F /* Pods_Ace_Technosys___UIKIT_Ace_Technosys___UIKITUITests.framework */,
+				ACF1CA3709F62340ACDAB88B /* Pods_Ace_Technosys___UIKITTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F213EE12DAE4CCF0047D5C1 /* Build configuration list for PBXNativeTarget "Ace-Technosys - UIKIT" */;
 			buildPhases = (
+				871CDFDF019C572F3D03CF3D /* [CP] Check Pods Manifest.lock */,
 				2F213EB42DAE4CCC0047D5C1 /* Sources */,
 				2F213EB52DAE4CCC0047D5C1 /* Frameworks */,
 				2F213EB62DAE4CCC0047D5C1 /* Resources */,
+				7F564309B1CBAE246F49B008 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +174,6 @@
 				2F213EBA2DAE4CCC0047D5C1 /* Ace-Technosys - UIKIT */,
 			);
 			name = "Ace-Technosys - UIKIT";
-			packageProductDependencies = (
-			);
 			productName = "Ace-Technosys - UIKIT";
 			productReference = 2F213EB82DAE4CCC0047D5C1 /* Ace-Technosys - UIKIT.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F213EE62DAE4CCF0047D5C1 /* Build configuration list for PBXNativeTarget "Ace-Technosys - UIKITTests" */;
 			buildPhases = (
+				9C8E43AE8FB105741796ECC5 /* [CP] Check Pods Manifest.lock */,
 				2F213ECA2DAE4CCE0047D5C1 /* Sources */,
 				2F213ECB2DAE4CCE0047D5C1 /* Frameworks */,
 				2F213ECC2DAE4CCE0047D5C1 /* Resources */,
@@ -147,8 +196,6 @@
 				2F213ED12DAE4CCE0047D5C1 /* Ace-Technosys - UIKITTests */,
 			);
 			name = "Ace-Technosys - UIKITTests";
-			packageProductDependencies = (
-			);
 			productName = "Ace-Technosys - UIKITTests";
 			productReference = 2F213ECE2DAE4CCE0047D5C1 /* Ace-Technosys - UIKITTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F213EE92DAE4CCF0047D5C1 /* Build configuration list for PBXNativeTarget "Ace-Technosys - UIKITUITests" */;
 			buildPhases = (
+				B35962C0572EF8FA90CA0758 /* [CP] Check Pods Manifest.lock */,
 				2F213ED42DAE4CCF0047D5C1 /* Sources */,
 				2F213ED52DAE4CCF0047D5C1 /* Frameworks */,
 				2F213ED62DAE4CCF0047D5C1 /* Resources */,
+				4DE45A5523BAC8BCAC7831E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +219,6 @@
 				2F213EDB2DAE4CCF0047D5C1 /* Ace-Technosys - UIKITUITests */,
 			);
 			name = "Ace-Technosys - UIKITUITests";
-			packageProductDependencies = (
-			);
 			productName = "Ace-Technosys - UIKITUITests";
 			productReference = 2F213ED82DAE4CCF0047D5C1 /* Ace-Technosys - UIKITUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +291,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DE45A5523BAC8BCAC7831E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F564309B1CBAE246F49B008 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ace-Technosys - UIKIT/Pods-Ace-Technosys - UIKIT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ace-Technosys - UIKIT/Pods-Ace-Technosys - UIKIT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ace-Technosys - UIKIT/Pods-Ace-Technosys - UIKIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871CDFDF019C572F3D03CF3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ace-Technosys - UIKIT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8E43AE8FB105741796ECC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ace-Technosys - UIKITTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35962C0572EF8FA90CA0758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F213EB42DAE4CCC0047D5C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +434,7 @@
 /* Begin XCBuildConfiguration section */
 		2F213EE22DAE4CCF0047D5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9555D4D5C6773229AFE12206 /* Pods-Ace-Technosys - UIKIT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +461,7 @@
 		};
 		2F213EE32DAE4CCF0047D5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65917444FF2A18ED4859D16C /* Pods-Ace-Technosys - UIKIT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +607,7 @@
 		};
 		2F213EE72DAE4CCF0047D5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADBF33D2FD986C8FF663ED8 /* Pods-Ace-Technosys - UIKITTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -473,6 +626,7 @@
 		};
 		2F213EE82DAE4CCF0047D5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62658B20A458CA5AFC954751 /* Pods-Ace-Technosys - UIKITTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +645,7 @@
 		};
 		2F213EEA2DAE4CCF0047D5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FBE85E155A0AEEAFDADFB6 /* Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -507,6 +662,7 @@
 		};
 		2F213EEB2DAE4CCF0047D5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2DE7F6F3C3EB26DDC38CEF /* Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
