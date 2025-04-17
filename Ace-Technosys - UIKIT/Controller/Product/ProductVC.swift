@@ -65,11 +65,37 @@ extension ProductVC : UITableViewDataSource {
         let cell = producttblView.dequeueReusableCell(withIdentifier: "ProductTableCell", for: indexPath) as! ProductTableCell
         cell.productnameLbl.text = products[indexPath.row].title
         cell.categoryLbl.text = products[indexPath.row].category
+        
         if let price = products[indexPath.row].price {
                cell.priceLbl.text = "Rs \(price)"
            } else {
                cell.priceLbl.text = "Rs 0.0"
            }
+        
+        cell.descriptionLbl.text = products[indexPath.row].description
+        
+        if let imageUrlString = products[indexPath.row].image, let imageUrl = URL(string: imageUrlString) {
+            
+            cell.productImg.kf.setImage(with: imageUrl) { result in
+                
+                switch result {
+                case .success(let value):
+                    print("Image successfully loaded: \(value.source.url?.absoluteString ?? "")")
+                case .failure(let error):
+                    print("Error loading image: \(error)")
+                }
+            }
+        }
+        
+        if let rating = products[indexPath.row].rating?.rate {
+            
+            cell.ratingLbl.text = "\(rating)"
+        }
+        else {
+            
+            cell.ratingLbl.text = "0.0 Rating"
+        }
+        
         return cell
     }
     
