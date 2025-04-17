@@ -35,4 +35,18 @@ class APIService {
                 }
             }
     }
+    
+    
+    func fetchProducts(completion: @escaping (Result<[Products], Error>) -> Void) {
+            let url = "https://fakestoreapi.com/products"
+            
+            AF.request(url, method: .get).responseDecodable(of: [Products].self) { response in
+                switch response.result {
+                case .success(let products):
+                    completion(.success(products))
+                case .failure(let error):
+                    completion(.failure(error))
+                }
+            }
+        }
 }
