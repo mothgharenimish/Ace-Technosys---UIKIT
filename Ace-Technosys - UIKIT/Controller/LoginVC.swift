@@ -6,9 +6,10 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 class LoginVC: UIViewController {
-
+    
     //MARK: -IBOutlet
     @IBOutlet weak var signinBtn: UIButton!
     @IBOutlet weak var googleView: UIView!
@@ -21,7 +22,7 @@ class LoginVC: UIViewController {
     //MARK: -View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         signinBtn.setCornerRadiusBtn(9.0)
         
         googleView.setCornerRadiusView(9.0)
@@ -42,7 +43,7 @@ class LoginVC: UIViewController {
         
         
         
-     
+        
     }
     
     
@@ -62,15 +63,42 @@ class LoginVC: UIViewController {
             
             print("The password text Field is empty")
             
-
+            
             showAlert(title: "Password", message: "The Password text Field is empty")
-
+            
         }
         
         
         else {
             
             print("Not any text field is empty")
+            
+            
+            let email = emailtxtField.text!
+            let password = passwordtxtField.text!
+            
+            APIService.shared.loginUser(email: email, password: password) { result in
+                switch result {
+                case .success(let token):
+                    print("Token: \(token)")
+                    DispatchQueue.main.async {
+//                        self.showAlert(title: "Success", message: "Token: \(token)")
+                        self.shownaviagtionAlert(title: "Login is Successfully", message: "Token: \(token)", completion: {
+                            
+                            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                            if let ProductVC = storyboard.instantiateViewController(withIdentifier: "ProductVC") as? ProductVC {
+                                self.navigationController?.pushViewController(ProductVC, animated: true)
+                          
+                            }
+                        })
+                    }
+                case .failure(let error):
+                    print(" Error: \(error.localizedDescription)")
+                    DispatchQueue.main.async {
+                        self.showAlert(title: "Login Failed", message: error.localizedDescription)
+                    }
+                }
+            }
         }
         
     }

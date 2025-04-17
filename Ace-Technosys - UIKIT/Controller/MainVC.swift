@@ -27,6 +27,13 @@ class MainVC: UIViewController {
     //MARK: -SIgnUP IBAction
     @IBAction func sugnupAction(_ sender: UIButton) {
         
+       
+    }
+    
+    
+    
+    @IBAction func alreadyaccountAction(_ sender: UIButton) {
+        
         let secondViewController = self.storyboard!.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
         self.navigationController!.pushViewController(secondViewController, animated: true)
     }

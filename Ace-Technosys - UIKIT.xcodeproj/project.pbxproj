@@ -34,13 +34,13 @@
 		2F213ECE2DAE4CCE0047D5C1 /* Ace-Technosys - UIKITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ace-Technosys - UIKITTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F213ED82DAE4CCF0047D5C1 /* Ace-Technosys - UIKITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ace-Technosys - UIKITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FBE85E155A0AEEAFDADFB6 /* Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		585C113A982A0850288948C2 /* Pods_Ace_Technosys___UIKIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ace_Technosys___UIKIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		585C113A982A0850288948C2 /* Pods_Ace_Technosys___UIKIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ace_Technosys___UIKIT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62658B20A458CA5AFC954751 /* Pods-Ace-Technosys - UIKITTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKITTests.release.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKITTests/Pods-Ace-Technosys - UIKITTests.release.xcconfig"; sourceTree = "<group>"; };
 		65917444FF2A18ED4859D16C /* Pods-Ace-Technosys - UIKIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKIT.release.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKIT/Pods-Ace-Technosys - UIKIT.release.xcconfig"; sourceTree = "<group>"; };
 		6C2DE7F6F3C3EB26DDC38CEF /* Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.release.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests/Pods-Ace-Technosys - UIKIT-Ace-Technosys - UIKITUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9555D4D5C6773229AFE12206 /* Pods-Ace-Technosys - UIKIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKIT.debug.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKIT/Pods-Ace-Technosys - UIKIT.debug.xcconfig"; sourceTree = "<group>"; };
-		A4AB11417791315CBCD8E99F /* Pods_Ace_Technosys___UIKIT_Ace_Technosys___UIKITUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ace_Technosys___UIKIT_Ace_Technosys___UIKITUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACF1CA3709F62340ACDAB88B /* Pods_Ace_Technosys___UIKITTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ace_Technosys___UIKITTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AB11417791315CBCD8E99F /* Pods_Ace_Technosys___UIKIT_Ace_Technosys___UIKITUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ace_Technosys___UIKIT_Ace_Technosys___UIKITUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF1CA3709F62340ACDAB88B /* Pods_Ace_Technosys___UIKITTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ace_Technosys___UIKITTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADBF33D2FD986C8FF663ED8 /* Pods-Ace-Technosys - UIKITTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ace-Technosys - UIKITTests.debug.xcconfig"; path = "Target Support Files/Pods-Ace-Technosys - UIKITTests/Pods-Ace-Technosys - UIKITTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,15 +65,11 @@
 		};
 		2F213ED12DAE4CCE0047D5C1 /* Ace-Technosys - UIKITTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "Ace-Technosys - UIKITTests";
 			sourceTree = "<group>";
 		};
 		2F213EDB2DAE4CCF0047D5C1 /* Ace-Technosys - UIKITUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "Ace-Technosys - UIKITUITests";
 			sourceTree = "<group>";
 		};
@@ -139,7 +135,6 @@
 				EADBF33D2FD986C8FF663ED8 /* Pods-Ace-Technosys - UIKITTests.debug.xcconfig */,
 				62658B20A458CA5AFC954751 /* Pods-Ace-Technosys - UIKITTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
