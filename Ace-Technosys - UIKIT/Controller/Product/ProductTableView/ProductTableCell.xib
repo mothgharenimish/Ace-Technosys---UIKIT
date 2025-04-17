@@ -203,8 +203,17 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="buynowView" destination="XoN-dX-dNY" id="Cpd-iL-Qbx"/>
+                <outlet property="categoryLbl" destination="5p9-Lq-IBS" id="LP0-Y7-jQI"/>
+                <outlet property="descriptionLbl" destination="Jar-tN-kFd" id="nAH-jK-Nbb"/>
+                <outlet property="priceLbl" destination="6kT-fK-TVU" id="avL-KG-bwD"/>
                 <outlet property="productImg" destination="Pyo-D8-V85" id="wmF-g6-sQX"/>
                 <outlet property="productView" destination="De4-Mo-lMa" id="M3g-su-JHh"/>
+                <outlet property="ratingLbl" destination="joC-PE-TRA" id="gTq-NC-hf3"/>
+                <outlet property="ratingView" destination="Nug-jZ-u8M" id="CPp-ku-WMB"/>
+                <outlet property="statusImg" destination="fEB-Df-9Rf" id="uW4-kO-JBn"/>
+                <outlet property="statusLbl" destination="V9x-Jd-v7P" id="uDe-Zt-JJt"/>
+                <outlet property="statusView" destination="h4j-kH-d6k" id="GpI-Tp-Xg0"/>
             </connections>
             <point key="canvasLocation" x="370.2290076335878" y="15.492957746478874"/>
         </tableViewCell>
