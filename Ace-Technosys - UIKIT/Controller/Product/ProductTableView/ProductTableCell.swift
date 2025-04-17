@@ -8,6 +8,9 @@
 import UIKit
 
 class ProductTableCell: UITableViewCell {
+    
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
