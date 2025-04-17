@@ -9,6 +9,8 @@ import UIKit
 
 class ProductTableCell: UITableViewCell {
     
+    @IBOutlet weak var productView: UIView!
+    @IBOutlet weak var productImg: UIImageView!
     
     
 
