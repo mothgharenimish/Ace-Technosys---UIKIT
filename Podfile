@@ -8,8 +8,8 @@ target 'Ace-Technosys - UIKIT' do
   # Pods for Ace-Technosys - UIKIT
     pod 'Alamofire'
     pod 'IQKeyboardManagerSwift'
-
-
+    pod 'Kingfisher', '~> 7.0'
+    pod 'Cosmos', '~> 23.0'
 
   target 'Ace-Technosys - UIKITTests' do
     inherit! :search_paths
