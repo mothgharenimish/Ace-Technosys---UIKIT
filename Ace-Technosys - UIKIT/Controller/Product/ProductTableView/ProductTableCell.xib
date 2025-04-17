@@ -209,6 +209,7 @@
                 <outlet property="priceLbl" destination="6kT-fK-TVU" id="avL-KG-bwD"/>
                 <outlet property="productImg" destination="Pyo-D8-V85" id="wmF-g6-sQX"/>
                 <outlet property="productView" destination="De4-Mo-lMa" id="M3g-su-JHh"/>
+                <outlet property="productnameLbl" destination="zog-S9-fcC" id="Gha-bW-jbf"/>
                 <outlet property="ratingLbl" destination="joC-PE-TRA" id="gTq-NC-hf3"/>
                 <outlet property="ratingView" destination="Nug-jZ-u8M" id="CPp-ku-WMB"/>
                 <outlet property="statusImg" destination="fEB-Df-9Rf" id="uW4-kO-JBn"/>

@@ -12,6 +12,7 @@ class ProductTableCell: UITableViewCell {
     
     //MARK: -IBOutlet 
     @IBOutlet weak var productView: UIView!
+    @IBOutlet weak var productnameLbl: UILabel!
     @IBOutlet weak var productImg: UIImageView!
     @IBOutlet weak var categoryLbl: UILabel!
     @IBOutlet weak var priceLbl: UILabel!
