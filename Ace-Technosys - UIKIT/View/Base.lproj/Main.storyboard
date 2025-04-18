@@ -459,7 +459,7 @@ Management</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wm3-OA-HJx">
                                 <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Frame" translatesAutoresizingMaskIntoConstraints="NO" id="u0q-So-APi">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-product-48" translatesAutoresizingMaskIntoConstraints="NO" id="u0q-So-APi">
                                         <rect key="frame" x="10" y="9.6666666666666714" width="25" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="25" id="H2P-1l-tYH"/>
@@ -542,6 +542,7 @@ Management</string>
         <image name="Vector (1)" width="22" height="18"/>
         <image name="google 1" width="30" height="30"/>
         <image name="icon" width="18" height="14"/>
+        <image name="icons8-product-48" width="48" height="48"/>
         <image name="image 8" width="30" height="30"/>
         <namedColor name="PinkColor">
             <color red="0.92549019607843142" green="0.27058823529411763" blue="0.37254901960784315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

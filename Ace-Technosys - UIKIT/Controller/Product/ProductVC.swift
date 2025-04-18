@@ -21,7 +21,7 @@ class ProductVC: UIViewController {
     //MARK: -View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.producttblView.delegate = self
         self.producttblView.dataSource = self
         
@@ -33,19 +33,51 @@ class ProductVC: UIViewController {
     
     
     func fetchProductData() {
-            APIService.shared.fetchProducts { result in
-                switch result {
-                case .success(let products):
-                    self.products = products
-                    print(products)
-                    DispatchQueue.main.async {
-                        self.producttblView.reloadData()
-                    }
-                case .failure(let error):
-                    print("Failed to fetch products:", error)
+        APIService.shared.fetchProducts { result in
+            switch result {
+            case .success(let products):
+                self.products = products
+                print(products)
+                DispatchQueue.main.async {
+                    self.producttblView.reloadData()
                 }
+            case .failure(let error):
+                print("Failed to fetch products:", error)
             }
         }
+    }
+    
+    
+    //MARK: -unfavourite IBAction
+    @objc func statustapped(sender : UIButton) {
+        
+           let index = sender.tag
+           let indexPath = IndexPath(row: index, section: 0)
+           var status : Bool = false
+        
+           status.toggle()
+        
+        if let cell = producttblView.cellForRow(at: indexPath) as? ProductTableCell {
+            
+            if status == true {
+                
+                cell.statusLbl.text = "Like"
+                cell.statusImg.image = UIImage(named: "icons8-heart-50 (1)")
+            }
+            
+            else if status == false {
+                
+                cell.statusLbl.text = "Dislike"
+                cell.statusImg.image = UIImage(named: "icons8-black-heart-48")
+            }
+            
+            else {
+                
+                print("Tapped the button status is not changes")
+            }
+        }
+      
+    }
     
 }
 
@@ -67,10 +99,10 @@ extension ProductVC : UITableViewDataSource {
         cell.categoryLbl.text = products[indexPath.row].category
         
         if let price = products[indexPath.row].price {
-               cell.priceLbl.text = "Rs \(price)"
-           } else {
-               cell.priceLbl.text = "Rs 0.0"
-           }
+            cell.priceLbl.text = "Rs \(price)"
+        } else {
+            cell.priceLbl.text = "Rs 0.0"
+        }
         
         cell.descriptionLbl.text = products[indexPath.row].description
         
@@ -86,7 +118,7 @@ extension ProductVC : UITableViewDataSource {
                 }
             }
         }
-        
+   
         if let rating = products[indexPath.row].rating?.rate {
             
             cell.ratingLbl.text = "\(rating)"
@@ -95,6 +127,22 @@ extension ProductVC : UITableViewDataSource {
             
             cell.ratingLbl.text = "0.0 Rating"
         }
+        
+        cell.ratingView.settings.updateOnTouch = false
+        cell.ratingView.settings.fillMode = .full
+        cell.ratingView.settings.starSize = 18
+        cell.ratingView.settings.filledColor = UIColor.orange
+        cell.ratingView.settings.emptyBorderColor = UIColor.red
+        cell.ratingView.settings.filledBorderColor = UIColor.red
+        cell.ratingView.settings.filledImage = UIImage(named: "GoldStarFilled")
+        cell.ratingView.settings.emptyImage = UIImage(named: "GoldStarEmpty")
+        
+        cell.ratingView.rating = (products[indexPath.row].rating?.rate)!
+        
+        cell.statusBtn.tag = indexPath.row
+        cell.statusBtn.addTarget(self, action: #selector(statustapped), for: .touchUpInside)
+        
+        
         
         return cell
     }
