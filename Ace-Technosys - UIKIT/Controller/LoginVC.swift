@@ -18,6 +18,11 @@ class LoginVC: UIViewController {
     @IBOutlet weak var emailtxtField: UITextField!
     @IBOutlet weak var passwordView: UIView!
     @IBOutlet weak var passwordtxtField: UITextField!
+    @IBOutlet weak var eyeimg: UIImageView!
+    
+    
+    var iconClick = true
+
     
     //MARK: -View Life Cycle
     override func viewDidLoad() {
@@ -42,10 +47,33 @@ class LoginVC: UIViewController {
         passwordView.layer.borderColor = UIColor.lightGray.cgColor
         
         
-        
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        eyeimg.isUserInteractionEnabled = true
+        eyeimg.addGestureRecognizer(tapGestureRecognizer)
         
     }
     
+    
+    
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer) {
+        let tappedImage = tapGestureRecognizer.view as! UIImageView
+        
+        print("Tapped on the Eye Image")
+        
+        
+           if iconClick {
+            passwordtxtField.isSecureTextEntry = false
+               print("A")
+               eyeimg.image = UIImage(named: "icons8-eye-24 (1)")
+           } else {
+               passwordtxtField.isSecureTextEntry = true
+               print("B")
+               eyeimg.image = UIImage(named: "icons8-invisible-32 (2)")
+
+           }
+           iconClick = !iconClick
+
+    }
     
     //MARK: -SignIn IBAction
     @IBAction func signinAction(_ sender: UIButton) {

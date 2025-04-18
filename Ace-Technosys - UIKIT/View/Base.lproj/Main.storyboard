@@ -154,14 +154,14 @@ Management</string>
                                                 <rect key="frame" x="15" y="170.33333333333334" width="363" height="55"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="nmt-J4-ZLl">
-                                                        <rect key="frame" x="5" y="19" width="17" height="17"/>
+                                                        <rect key="frame" x="5" y="17.666666666666657" width="20" height="20"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="17" id="Xlz-vG-MwI"/>
-                                                            <constraint firstAttribute="width" constant="17" id="ehe-dt-2N7"/>
+                                                            <constraint firstAttribute="height" constant="20" id="Xlz-vG-MwI"/>
+                                                            <constraint firstAttribute="width" constant="20" id="ehe-dt-2N7"/>
                                                         </constraints>
                                                     </imageView>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mP2-wI-ewH">
-                                                        <rect key="frame" x="27" y="0.0" width="336" height="55"/>
+                                                        <rect key="frame" x="30" y="0.0" width="333" height="55"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -182,22 +182,22 @@ Management</string>
                                                 <rect key="frame" x="15" y="237.33333333333331" width="363" height="55"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector" translatesAutoresizingMaskIntoConstraints="NO" id="fG0-aR-uCx">
-                                                        <rect key="frame" x="5" y="19" width="17" height="17"/>
+                                                        <rect key="frame" x="5" y="17.666666666666686" width="20" height="20"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="17" id="gtG-At-fyA"/>
-                                                            <constraint firstAttribute="width" constant="17" id="pYg-k5-bBA"/>
+                                                            <constraint firstAttribute="height" constant="20" id="gtG-At-fyA"/>
+                                                            <constraint firstAttribute="width" constant="20" id="pYg-k5-bBA"/>
                                                         </constraints>
                                                     </imageView>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z2Q-YK-5x8">
-                                                        <rect key="frame" x="27" y="0.0" width="309" height="55"/>
+                                                        <rect key="frame" x="30" y="0.0" width="303" height="55"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector (1)" translatesAutoresizingMaskIntoConstraints="NO" id="rcZ-LF-yOJ">
-                                                        <rect key="frame" x="341" y="19" width="17" height="17"/>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-invisible-32 (2)" translatesAutoresizingMaskIntoConstraints="NO" id="rcZ-LF-yOJ">
+                                                        <rect key="frame" x="338" y="17.666666666666686" width="20" height="20"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="17" id="dg6-Pm-dCa"/>
-                                                            <constraint firstAttribute="height" constant="17" id="t0d-YO-DFa"/>
+                                                            <constraint firstAttribute="width" constant="20" id="dg6-Pm-dCa"/>
+                                                            <constraint firstAttribute="height" constant="20" id="t0d-YO-DFa"/>
                                                         </constraints>
                                                     </imageView>
                                                 </subviews>
@@ -437,6 +437,7 @@ Management</string>
                     <connections>
                         <outlet property="emailView" destination="PbD-ip-0qN" id="dAL-bZ-zZk"/>
                         <outlet property="emailtxtField" destination="mP2-wI-ewH" id="oaN-hG-ccj"/>
+                        <outlet property="eyeimg" destination="rcZ-LF-yOJ" id="FnU-d0-kTU"/>
                         <outlet property="fbView" destination="RTS-Ad-14H" id="jqU-sP-yfW"/>
                         <outlet property="googleView" destination="sgP-mJ-TFV" id="iVy-1B-czO"/>
                         <outlet property="passwordView" destination="CsG-qj-nSr" id="gJY-hv-Xc2"/>
@@ -539,9 +540,9 @@ Management</string>
         <image name="Frame" width="24" height="24"/>
         <image name="Group 176" width="309" height="316"/>
         <image name="Vector" width="18" height="22"/>
-        <image name="Vector (1)" width="22" height="18"/>
         <image name="google 1" width="30" height="30"/>
         <image name="icon" width="18" height="14"/>
+        <image name="icons8-invisible-32 (2)" width="32" height="32"/>
         <image name="icons8-product-48" width="48" height="48"/>
         <image name="image 8" width="30" height="30"/>
         <namedColor name="PinkColor">
