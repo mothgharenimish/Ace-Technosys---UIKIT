@@ -19,6 +19,7 @@ class LoginVC: UIViewController {
     @IBOutlet weak var passwordView: UIView!
     @IBOutlet weak var passwordtxtField: UITextField!
     @IBOutlet weak var eyeimg: UIImageView!
+    @IBOutlet weak var backBtn: UIButton!
     
     
     var iconClick = true
@@ -50,6 +51,15 @@ class LoginVC: UIViewController {
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         eyeimg.isUserInteractionEnabled = true
         eyeimg.addGestureRecognizer(tapGestureRecognizer)
+        
+    }
+    
+    //MARK: -Back IBAction
+    @IBAction func backAction(_ sender: UIButton) {
+       
+        
+        self.navigationController?.popViewController(animated: true)
+
         
     }
     

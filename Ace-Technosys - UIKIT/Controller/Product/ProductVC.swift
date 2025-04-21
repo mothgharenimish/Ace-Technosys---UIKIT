@@ -41,9 +41,12 @@ class ProductVC: UIViewController {
             case .success(let products):
                 self.products = products
                 print(products)
+                print("Nimish Mothghare")
                 DispatchQueue.main.async {
+                    print("Kavita Sharma")
                     self.producttblView.reloadData()
                 }
+                print("JP Morgon")
             case .failure(let error):
                 print("Failed to fetch products:", error)
             }
